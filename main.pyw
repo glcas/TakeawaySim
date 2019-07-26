@@ -55,7 +55,7 @@ def run(surface, colorDict):
             self.__initialPos__ = initialPos
             self.speed = 2
             self.direction = right
-            self.pos = self.__initialPos__  # 怎么 通过精灵类等它动了以后来确定位置？
+            self.pos = self.__initialPos__
             self.rect = self.rightHeadedImage.get_rect()
             self.rect.topleft = (
                 (houseLen + roadLen) * self.pos[0] + (houseLen + 2),
