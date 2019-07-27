@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-# TakeawaySim
-![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim) ![GitHub](https://img.shields.io/github/license/glcas/TakeawaySim) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=yellow)   
-=======
 # <img width="40" height="40" src=icon.jpg/>TakeawaySim
-![AUR license](https://img.shields.io/aur/license/pac) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=brightgreen) ![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim?color=yellow)  
->>>>>>> a9d6808573878b14f039cec7bb297c1602df7944
+![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim) ![GitHub](https://img.shields.io/github/license/glcas/TakeawaySim) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=yellow)  
 a takeaway simulation system
 ## What's this?
 This is a food delivery simulation program with a graphical user interface.  
@@ -37,8 +32,8 @@ The font used in the program is **等线** by Beijing Founder Electronics Co.,Lt
 ## To Do List
 * delivery men can run out of the window(only up & down borders), caused by algorithm
 ## Thanks
-This is my project of general education course *`Computer Algorithm and Program`*, which is lectured by Professor Dai Bo, UESTC.  
-The idea of this design completely comes from Mrs. Zhang Yanmei, BUPT.  
+This is my project of general education course *`Computer Algorithm and Program`*, which is lectured by Professor Dai Bo, University of Electronic Science and Technology of China.  
+The idea of this design completely comes from Mrs. Zhang Yanmei, Beijing University of Posts and Telecommunications.  
 Thanks to these venerable teachers!
 ## By the way
     I don't konw why I create the branch with the name and I'm typing this words.
