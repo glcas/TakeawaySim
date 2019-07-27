@@ -8,7 +8,7 @@ While the system is running, the program is able to update the capital, duration
 ## Introduction
 ### Libraries Included
 The program uses following libraries:  
-* **[pygame](https://www.pygame.org)**  
+* **[pygame](https://github.com/pygame/pygame)**  
   Use pygame to realize the main GUI & animation.
 * **tkinter**  
   Use tkinter to realize information windows.
