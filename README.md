@@ -14,17 +14,17 @@ The program uses following libraries:
   Use tkinter to realize information window.
 ### Core Algorithm
 Because of the uncertainty of orders, the program take a strategy like `Greedy Algorithm` to dispatch orders and decide delivery men's routes.  
-* Order Dispatch  
-  
+* Order Allocation  
+  New order is allocated to the man that has nothing to do. If every man is on his way, the order will be allocated to who can reach the order's restaurant without extra effort. If no man meets above requiements, the order will be allocated to the last man.  
+  In additon, the order is allocated to one man only if he reach the order's restaurant. That's to say, order allocation just means let everyone has something todo.  
+  The codes realize above features start from [line 606](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L606)  and end at line 640. 
   
 * Path Decision  
-  
     A coordinate system is set in the program, every units has its own coordinate and that's what delivery men can see. Each delivery man has a `"Reachable Destination Queue"`, which decides the man's route. The queue is dynamic, sorted by the coordinates of the man and destinations, always choosing the shortest path for the man to reach destinations in the queue at that time.  
-
-    function  
-    * decideDirection
-    * arrive
-    * ontheWayAnalysis
+    The following function and methods realize the feature:
+    * function [ontheWayAnalysis](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L265)
+    * method [decideDirection](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L79)
+    * method [arrive](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L183)
 ### Linear Transform
 ## To Do List
 * 
