@@ -1,4 +1,4 @@
-# TakeawaySim
+# <img width="40" height="40" src=icon.jpg/>TakeawaySim
 ![AUR license](https://img.shields.io/aur/license/pac) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=brightgreen) ![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim?color=yellow)  
 a takeaway simulation system
 ## What's this?
