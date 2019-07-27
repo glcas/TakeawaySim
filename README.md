@@ -21,13 +21,14 @@ Because of the uncertainty of orders, the program take a strategy like `Greedy A
   
 * Path Decision  
     A coordinate system is set in the program, every units has its own coordinate and that's what delivery men can see. Each delivery man has a `"Reachable Destination Queue"`, which decides the man's route. The queue is dynamic, sorted by the coordinates of the man and destinations, always choosing the shortest path for the man to reach destinations in the queue at that time.  
+    
     The following function and methods realize the feature:
     * function [ontheWayAnalysis](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L265 "Line 265")
     * method [decideDirection](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L79 "Line 79") (belongs to class `man`)
     * method [arrive](https://github.com/glcas/TakeawaySim/blob/master/main.pyw#L183 "Line 183") (belongs to class `man`)
 ### Linear Transform
 #### Coordinates
-* Intersection Coordinates $\Rightarrow$ Building Coordinates
+* Intersection Coordinates -> Building Coordinates
 * 
 ### User Interface Design
 ## To Do List
