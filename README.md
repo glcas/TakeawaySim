@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 # TakeawaySim
 ![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim) ![GitHub](https://img.shields.io/github/license/glcas/TakeawaySim) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=yellow)   
+=======
+# <img width="40" height="40" src=icon.jpg/>TakeawaySim
+![AUR license](https://img.shields.io/aur/license/pac) ![GitHub repo size](https://img.shields.io/github/repo-size/glcas/TakeawaySim?color=brightgreen) ![GitHub top language](https://img.shields.io/github/languages/top/glcas/TakeawaySim?color=yellow)  
+>>>>>>> a9d6808573878b14f039cec7bb297c1602df7944
 a takeaway simulation system
 ## What's this?
 This is a food delivery simulation program with a graphical user interface.  
